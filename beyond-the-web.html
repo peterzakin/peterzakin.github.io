@@ -38,6 +38,15 @@
         a:hover {
             text-decoration: underline;
         }
+
+        .footnote {
+            font-size: 0.8em;
+            color: #555;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -52,7 +61,11 @@
     <ul>
         <li>Websim uses the conceit of a browser UI to inspire users to browse the web as it’s imagined by Claude.</li>
         <li>Anthropic has launched Pages which allows anyone to create Wikipedia-style guides. Reminiscent of Hrishi Olickel’s work on Lumentis.</li>
-        <li>Max Krieger’s work on Rabbitholes: <a href="https://x.com/maxkriegers/status/1794739768993239134">https://x.com/maxkriegers/status/1794739768993239134</a>.</li>
+        <li>Max Krieger’s work on Rabbitholes.
+              <div class="footnote" id="footnote1">1</div> <p> Rabbitholes are a spiritual successor to hyperlinks. Like hyperlinks, rabbitholes connect documents to other documents. But while hyperlinks are predefined connections to documents that already exist, rabbitholes are defined by the end-user at runtime, anchored to any arbitrary selection of content, and prompt the model to generate content on-the-fly.</p>
+    </div>  
+            
+            : <a href="https://x.com/maxkriegers/status/1794739768993239134">https://x.com/maxkriegers/status/1794739768993239134</a>.</li>
     </ul>
     <p>What I find most fascinating is the use of generative web content to satisfy complex reasoning tasks.</p>
     <p>These workflows follow a consistent grammar. Drawing on a particular body of content (a set of documents, search results, or web history) and a task description, an assistant generates rich web content.</p>
@@ -79,5 +92,11 @@
         <li><a href="https://x.com/pzakin/status/1770556461506236722">https://x.com/pzakin/status/1770556461506236722</a></li>
         <li><a href="https://x.com/pzakin/status/1758274746159124876">https://x.com/pzakin/status/1758274746159124876</a></li>
     </ul>
+
+    <h2>Notes</h2>
+     <div class="footnote" id="footnote1">
+        <p>[1] Rabbitholes are a spiritual successor to hyperlinks. Like hyperlinks, rabbitholes connect documents to other documents. But while hyperlinks are predefined connections to documents that already exist, rabbitholes are defined by the end-user at runtime, anchored to any arbitrary selection of content, and prompt the model to generate content on-the-fly.</p>
+    </div>
+    
 </body>
 </html>
